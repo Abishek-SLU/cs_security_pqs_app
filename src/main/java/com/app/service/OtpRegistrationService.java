@@ -48,7 +48,7 @@ public class OtpRegistrationService {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo(email);
         message.setSubject("Your Registration OTP");
-        message.setText("Dear User,\n\nYour OTP for registration is: " + otp + "\n\n- cs-security Team");
+        message.setText("Dear User,\n\nYour OTP for registration is: " + otp + "\n\n- cs-security-pqs Team");
         mailSender.send(message);
 
         Map<String, Object> response = new HashMap<>();

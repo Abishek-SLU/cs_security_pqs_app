@@ -9,11 +9,11 @@
 		<version>2.3.0.BUILD-SNAPSHOT</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cs-security-api</groupId>
-	<artifactId>cs-security-api</artifactId>
+	<groupId>com.cs-security-pqs-api</groupId>
+	<artifactId>cs-security-pqs-api</artifactId>
 	<version>1.0</version>
-	<name>cs-security-api</name>
-	<description>API for cs-security App</description>
+	<name>cs-security-pqs-api</name>
+	<description>API for cs-security-pqs App</description>
 
 	<profiles>
 		<profile>
